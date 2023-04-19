@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 873202b19b03a8a4e976f0b15d21cd24
+guid: c371f249aa199864893e3592d72b0aa8
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
@@ -227,7 +227,7 @@ ModelImporter:
     second: JohnLemon
   - first:
       74: 7400000
-    second: John_Idle
+    second: John_Walk
   - first:
       95: 9500000
     second: //RootNode
@@ -263,11 +263,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: John_Idle
+      name: John_Walk
       takeName: Take 001
       internalID: 0
-      firstFrame: 0
-      lastFrame: 180
+      firstFrame: 1
+      lastFrame: 39
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
