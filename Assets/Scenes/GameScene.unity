@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 946053651747143920, guid: dddd3a8c3c9d64ab681cb5889ff9b652, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.108921
+      value: 14.108919
       objectReference: {fileID: 0}
     - target: {fileID: 946053651747143920, guid: dddd3a8c3c9d64ab681cb5889ff9b652, type: 3}
       propertyPath: m_LocalPosition.y
@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 946053651747143920, guid: dddd3a8c3c9d64ab681cb5889ff9b652, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.08605814
+      value: -0.086056925
       objectReference: {fileID: 0}
     - target: {fileID: 946053651747143920, guid: dddd3a8c3c9d64ab681cb5889ff9b652, type: 3}
       propertyPath: m_LocalRotation.w
@@ -353,7 +353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 808699125604765712, guid: ace9d96dd7cda4332bca3621003d16f7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.108921
+      value: 14.108919
       objectReference: {fileID: 0}
     - target: {fileID: 808699125604765712, guid: ace9d96dd7cda4332bca3621003d16f7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -361,7 +361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 808699125604765712, guid: ace9d96dd7cda4332bca3621003d16f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.08605814
+      value: -0.086056925
       objectReference: {fileID: 0}
     - target: {fileID: 808699125604765712, guid: ace9d96dd7cda4332bca3621003d16f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -469,6 +469,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8608733611193347957, guid: 42d090a2973e6428da6c0bfd42e6fdb0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c96caa1cd05a4d943bc19f05ec791cc0, type: 2}
     - target: {fileID: 8608733611202691229, guid: 42d090a2973e6428da6c0bfd42e6fdb0, type: 3}
       propertyPath: m_RootOrder
       value: 7
