@@ -5,6 +5,7 @@ using UnityEngine;
 public class Observer : MonoBehaviour
 {
     public Transform player;
+    public GameEnding gameEnding;
 
     bool m_IsPlayerInRange;
 
@@ -36,9 +37,7 @@ public class Observer : MonoBehaviour
             {
                 if (raycastHit.collider.transform == player)
                 {
-                    //TODO: finish game ending script
-                    //call to game ending script goes here
-                   //gameEnding.CaughtPlayer(); 
+                   gameEnding.CaughtPlayer(); 
                 }
             }
         }
