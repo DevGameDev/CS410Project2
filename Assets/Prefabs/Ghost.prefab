@@ -482,7 +482,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 6728703095220071085}
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!82 &9086236067548342903
 AudioSource:
   m_ObjectHideFlags: 0
@@ -971,6 +973,14 @@ PrefabInstance:
     - target: {fileID: 2200151562214102066, guid: 34650285d42ec8d2d8027a176a61fb7f, type: 3}
       propertyPath: m_Name
       value: PointOfView
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105506290660450147, guid: 34650285d42ec8d2d8027a176a61fb7f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105506290660450147, guid: 34650285d42ec8d2d8027a176a61fb7f, type: 3}
+      propertyPath: gameEnding
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9087439183698247094, guid: 34650285d42ec8d2d8027a176a61fb7f, type: 3}
       propertyPath: m_RootOrder
