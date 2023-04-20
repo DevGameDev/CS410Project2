@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Glider : MonoBehaviour
 {
-<<<<<<< Updated upstream
     public List<GameObject> points = new List<GameObject>();
 
     private Vector3 targetPosition = Vector3.zero;
@@ -48,17 +47,3 @@ public class Glider : MonoBehaviour
         }
     }
 }
-=======
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
->>>>>>> Stashed changes
